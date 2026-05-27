@@ -1,0 +1,32 @@
+ZQL 1.0 - SQL Security Testing Framework Dev: Zayar Lin
+================================================== BASIC COMMANDS
+python3 zql.py Launch interactive mode
+python3 zql.py scan Run full security scan
+python3 zql.py headers Inspect security headers
+python3 zql.py cookies Analyze cookie security
+python3 zql.py waf-detect Detect Web Application Firewall
+python3 zql.py fingerprint Fingerprint DBMS and server stack
+python3 zql.py sandbox Show vulnerable training environments
+python3 zql.py report --format html Generate HTML report
+================================================== SUPPORTED REPORT FORMATS
+txt json html md
+================================================== SUPPORTED DATABASES
+MySQL
+PostgreSQL
+MSSQL
+SQLite
+Oracle
+MariaDB
+================================================== EXAMPLES
+python3 zql.py scan http://localhost/dvwa/vulnerabilities/sqli/?id=1
+python3 zql.py scan http://localhost/sqli-labs/Less-1/?id=1
+python3 zql.py waf-detect https://example.com
+python3 zql.py headers https://example.com
+================================================== ETHICAL USE NOTICE
+Use ZQL only on:
+Systems you own
+Authorized penetration testing targets
+Local labs
+CTF environments
+Unauthorized usage is illegal.
+================================================== ZQL 1.0 Cyberpunk SQL Security Framework
