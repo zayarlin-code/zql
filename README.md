@@ -1,88 +1,108 @@
-ZQL 1.0
-SQL Security Testing Framework
+# ⚡ ZQL 1.0
+### Cyberpunk SQL Security Testing Framework
 
-ZQL 1.0 is a cinematic cyberpunk-style SQL security auditing framework designed for:
-Authorized penetration testing
-Local lab environments
-CTF challenges
-OWASP training platforms
-Educational cybersecurity research
+![Version](https://img.shields.io/badge/version-1.0-red)
+![Python](https://img.shields.io/badge/python-3.10-blue)
+![Platform](https://img.shields.io/badge/platform-linux-green)
+![License](https://img.shields.io/badge/license-GPL3-orange)
 
-Features
+---
 
-URL Parameter Analyzer
-SQL Error Detection
-Boolean-Based Blind SQLi Detection
-WAF Detection
-DBMS Fingerprinting
-Security Header Inspection
-Cookie Security Scanner
-Response Difference Analyzer
-Interactive Terminal Mode
-HTML / JSON / Markdown Reporting
-Training Sandbox Mode
-Cyberpunk Animated CLI Interface
+## 🧠 Features
 
-Installation
+- SQL Injection Scanner  
+- WAF Detection  
+- Cookie Security Audit  
+- DBMS Fingerprinting  
+- HTML / JSON / Markdown Reports  
+- Cyberpunk CLI Interface  
+- Security Header Analysis  
+- Response Difference Detection  
 
-git clone https://github.com/zayarlin/zql.git cd zql python3 zql.py 
+---
 
-Requirements
+## 📸 Demo
 
-Python 3.10+
-Linux / macOS / Windows
-Internet Connection
+```bash
+[+] Initializing ZQL Engine...
+[+] Loading Modules...
+[✓] WAF Detected
+[✓] SQL Injection Found
+```
 
-Usage
+---
 
-Interactive Mode
-python3 zql.py 
+## ⚙ Installation
 
-Full Scan
-python3 zql.py scan http://localhost/sqli-labs/Less-1/?id=1 
+```bash
+git clone https://github.com/zayarlin-code/zql
+cd zql
+python3 zql.py
+```
 
-Header Inspection
-python3 zql.py headers https://example.com 
+---
 
-Cookie Analysis
-python3 zql.py cookies https://example.com 
+## 🚀 Usage
 
-WAF Detection
-python3 zql.py waf-detect https://example.com 
+### Interactive Mode
 
-DBMS Fingerprinting
-python3 zql.py fingerprint https://example.com 
+```bash
+python3 zql.py
+```
 
-Sandbox Mode
-python3 zql.py sandbox 
+### Full Scan
 
-Report Formats
+```bash
+python3 zql.py scan http://target.com?id=1
+```
 
-ZQL supports:
+### WAF Detection
+
+```bash
+python3 zql.py waf-detect https://target.com
+```
+
+---
+
+## 🧩 Modules
+
+| Module | Status |
+|--------|--------|
+| SQLi Scanner | ✅ |
+| WAF Detection | ✅ |
+| Header Analyzer | ✅ |
+| Cookie Audit | ✅ |
+| DB Fingerprinting | ✅ |
+
+---
+
+## 📁 Report Formats
+
+```text
 TXT
 JSON
 HTML
 Markdown
-Generate reports:
-python3 zql.py report --format html 
+```
 
-Supported Databases
+---
 
-MySQL
-PostgreSQL
-MSSQL
-SQLite
-Oracle
-MariaDB
+## ⚠ Disclaimer
 
-Ethical Use Warning
+This tool is for educational and authorized testing only.  
+Do not use on systems without permission.
 
-ZQL is strictly intended for:
-Authorized security testing
-Educational labs
-Capture The Flag (CTF) environments
-Research purposes
-Unauthorized usage against systems you do not own or have permission to test is illegal.
+---
 
-Developer - Zayar Lin
-Version - ZQL 1.0
+## 👨‍💻 Developer
+
+```text
+Zayar Lin
+```
+
+---
+
+## ⭐ Support
+
+Give this repo a star if you like it!
+
