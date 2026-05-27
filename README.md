@@ -1,6 +1,11 @@
 # ⚡ ZQL 1.0
 ### Cyberpunk SQL Security Testing Framework
 
+<p align="center">
+  <img src="images/zql-banner.png" width="100%">
+</p>
+
+
 ![Version](https://img.shields.io/badge/version-1.0-red)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![Platform](https://img.shields.io/badge/platform-linux-green)
