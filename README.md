@@ -2,7 +2,7 @@
 ### Cyberpunk SQL Security Testing Framework
 
 <p align="center">
-  <img src="images/zql-banner.png" width="100%">
+  <img src="images/zql-banner.png" width="100%" height="100">
 </p>
 
 
